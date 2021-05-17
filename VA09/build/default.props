@@ -1,0 +1,15 @@
+# Default properties
+
+# Path to the junit.jar on a standard linux box
+# At the time of this writing this is
+#/usr/share/java/junit.jar -> junit-3.8.2.jar
+#/usr/share/java/junit4.jar -> junit4-4.8.1.jar
+
+junit3.url =/usr/share/java/junit.jar
+junit4.url =/usr/share/java/junit4.jar
+
+# Path to the hamcrest.jar.
+# Defining the hamcrest.url is not needed if you use the standalone JUnit packages
+# They include the hamcrest
+hamcrest.url =
+

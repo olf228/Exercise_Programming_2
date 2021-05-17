@@ -1,0 +1,27 @@
+# User specific properties
+# Use this file to override settings in default.props
+#
+# Note: either activate LINUX or WINDOWS blocks.
+#
+
+############
+# LINUX
+###########
+
+# Path to the junit.jar (Version 4)
+#junit4.url = /export/home/regensbu/Eclipse/eclipse_helios_3.6.1.jee/plugins/org.junit_4.8.1.v4_8_1_v20100427-1100/junit.jar
+#junit3.url = /export/home/regensbu/Eclipse/eclipse_helios_3.6.1.jee/plugins/org.junit_3.8.2.v3_8_2_v20100427-1100/junit.jar
+
+# Path to the hamcrest.jar.
+#hamcrest.url = /export/home/regensbu/Eclipse/eclipse_helios_3.6.1.jee/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar
+
+###########
+# WINDOWS
+###########
+
+# Path to the junit.jar (Version 4)
+#junit4.url = C:/Users/Lehre/eclipse-java-helios-SR2-win32-x86_64/eclipse/plugins/org.junit_4.8.1.v4_8_1_v20100427-1100/junit.jar
+#junit3.url = C:/Users/Lehre/eclipse-java-helios-SR2-win32-x86_64/eclipse/plugins/org.junit_3.8.2.v3_8_2_v20100427-1100/junit.jar
+
+# Path to the hamcrest.jar.
+#hamcrest.url = C:/Users/Lehre/eclipse-java-helios-SR2-win32-x86_64/eclipse/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar

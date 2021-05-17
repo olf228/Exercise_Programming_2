@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<project default="usage" basedir=".">
+	<!-- Give user a chance to override without editing this file.
+	     Create your own user.props file according to default.props
+             in order to override the settings in default.props
+         -->
+	<property file="user.props" />
+	<property file="${user.home}/user.props" />
+	<property environment="env" />
+	<property file="default.props" />
+
+	<!-- Set properties (constants) which can later be used. -->
+	<property name="src.dir" location="src" />
+	<property name="compile.dir" location="classes" />
+	<!-- Variables used for JUnit testing -->
+	<property name="test.report.dir" location="utest.report" />
+	<property name="utest.src" location="tests" />
+	<!-- Variables used for attestation -->
+	<property name="cert.report.dir" location="cert.report" />
+	<property name="cert.src" location="cert" />
+
+	<!-- Create classpath containers which can be later used in the ant task -->
+	<path id="compile.classpath">
+	</path>
+
+	<path id="junit3.classpath">
+		<pathelement location="${junit3.url}" />
+		<pathelement location="${hamcrest.url}" />
+	</path>
+
+	<path id="junit4.classpath">
+		<pathelement location="${junit4.url}" />
+		<pathelement location="${hamcrest.url}" />
+	</path>
+
+	<path id="utest.classpath">
+		<pathelement location="classes" />
+	</path>
+
+	<path id="cert.classpath">
+		<pathelement location="classes" />
+	</path>
+
+	<!-- =============== Usage        =============== -->
+	<target name="usage" description="--> explains howto call ant">
+		<echo message="Usage: ant target" />
+		<echo message="where target is one of:" />
+		<echo message="" />
+		<echo message="usage           : this info" />
+		<echo message="propinfo        : print settings of default/user properties" />
+		<echo message="clean           : cleanup results of the buid process" />
+		<echo message="compile         : compile all components of the application" />
+		<echo message="compile.utests  : compile all unit tests of the application" />
+		<echo message="                  depends on target compile" />
+		<echo message="run.utests      : run all unit tests of the application" />
+		<echo message="                  depends on target compile.utests" />
+		<echo message="compile.cert    : compile all tests for attestation" />
+		<echo message="                  depends on target compile" />
+		<echo message="run.cert        : run all tests for attestation" />
+		<echo message="                  depends on target compile.cert" />
+	</target>
+
+	<!-- =============== PropInfo             =============== -->
+	<target name="propinfo" description="--> print settings">
+		<echo message="junit3.url=${junit3.url}" />
+		<echo message="junit4.url=${junit4.url}" />
+		<echo message="hamcrest.url=${hamcrest.url}" />
+	</target>
+
+	<!-- =============== Cleanup             =============== -->
+	<target name="clean" description="--> cleans up compile and dist directories">
+		<delete dir="${compile.dir}" />
+		<delete dir="${test.report.dir}" />
+		<delete dir="${cert.report.dir}" />
+	</target>
+
+	<!-- =============== Compile the code      =============== -->
+	<target name="compile" depends="" description="--> compiles the source code">
+		<mkdir dir="${compile.dir}" />
+		<javac srcdir="${src.dir}" destdir="${compile.dir}" />
+	</target>
+
+	<!-- =============== Compile JUnit tests     =============== -->
+	<target name="compile.utests" depends="compile" description="compile the unit test sources">
+		<javac srcdir="${utest.src}" destdir="${compile.dir}">
+			<classpath refid="compile.classpath" />
+			<classpath refid="junit4.classpath" />
+		</javac>
+	</target>
+
+	<!-- =============== Run JUnit tests     =============== -->
+	<target name="run.utests" depends="compile,compile.utests" description="run all unit tests">
+		<mkdir dir="${test.report.dir}" />
+
+		<junit printsummary="on" fork="true" haltonfailure="yes">
+			<classpath refid="compile.classpath" />
+			<classpath refid="junit4.classpath" />
+			<classpath refid="utest.classpath" />
+
+			<formatter type="plain" />
+			<batchtest todir="${test.report.dir}">
+				<fileset dir="${compile.dir}" includes="**/UTest*.class" />
+			</batchtest>
+		</junit>
+	</target>
+
+	<!-- =============== Compile cert tests     =============== -->
+	<target name="compile.cert" depends="compile" description="compile the sources of the attestation tests">
+		<javac srcdir="${cert.src}" destdir="${compile.dir}">
+			<classpath refid="compile.classpath" />
+			<classpath refid="junit3.classpath" />
+		</javac>
+	</target>
+
+	<!-- =============== Run cert tests     =============== -->
+	<target name="run.cert" depends="compile,compile.cert" description="run all tests for attestation">
+		<mkdir dir="${cert.report.dir}" />
+
+		<junit printsummary="on" fork="true" haltonfailure="yes">
+			<classpath refid="compile.classpath" />
+			<classpath refid="junit3.classpath" />
+			<classpath refid="cert.classpath" />
+
+			<formatter type="plain" />
+			<batchtest todir="${cert.report.dir}">
+				<fileset dir="${compile.dir}" includes="**/*Test.class" />
+			</batchtest>
+		</junit>
+	</target>
+
+</project>
+

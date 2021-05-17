@@ -1,0 +1,71 @@
+Compile the application manually
+================================
+
+Note:
+Depending on the platform the separator between classpath components is
+either '\;' for windows or ':' for Unix
+
+rm -rf classes
+mkdir classes
+
+On Windows:
+javac -classpath \;lib/* -d classes src/studiplayer/ui/*.java src/studiplayer/audio/*.java
+
+On Unix:
+javac -classpath :lib/* -d classes src/studiplayer/ui/*.java src/studiplayer/audio/*.java
+
+Run application manually in a build environment
+===============================================
+
+Note:
+Depending on the platform the separator between classpath components is
+either '\;' for windows or ':' for Unix
+
+
+On Windows:
+
+java -cp ./classes\;lib/* studiplayer/ui/Player
+
+or with a certain m3u file
+
+java -cp ./classes\;lib/* studiplayer/ui/Player playlists/playList.cert.m3u
+java -cp ./classes\;lib/* studiplayer/ui/Player playlists/Queen.m3u
+
+On Unix:
+
+java -cp ./classes:lib/* studiplayer/ui/Player
+
+or with a certain m3u file
+
+java -cp ./classes:lib/* studiplayer/ui/Player playlists/playList.cert.m3u
+java -cp ./classes:lib/* studiplayer/ui/Player playlists/Queen.m3u
+
+Use ant for building and running the application
+=================================================
+
+show usage: ant
+
+Some targets (use 'ant usage' to see all)
+
+cleanup  : ant clean
+compile  : ant compile
+run      : ant run
+           or with arguments
+           ant run -Dargs=playlists/DemoQueen-SS2019.m3
+
+Creating a binary distribution
+==============================
+
+ant clean
+ant bin.dist
+
+Ship the distribition
+=====================
+
+You only need to ship the contents of the dist directory.
+
+Runnning the binary distribution from the jar file
+==================================================
+
+(cd dist; java -jar studiplayer.all.jar)
+

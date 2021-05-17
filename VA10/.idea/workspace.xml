@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Unnamed" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="VA10:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6bf4d2d1-38b0-4159-bfa2-7ef3204b9402" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>songdes</find>
+      <find>playt</find>
+      <find>action</find>
+      <find>playcurr</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Unnamed" pattern="src:studiplayer.audio.*||src:studiplayer.ui.*" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/libraries/lib.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/VA10_jar.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UWu4AOZTS3PLnRwcsp7uGt6my0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Daten\Intellij Repository\VA10\src\studiplayer\ui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.cert in VA10">
+    <configuration name="Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="studiplayer.ui.Player" />
+      <module name="VA10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="studiplayer.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Raten" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Raten" />
+      <module name="VA10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cert in VA10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VA10" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/cert" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.cert in VA10" />
+        <item itemvalue="Application.Player" />
+        <item itemvalue="Application.Raten" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bf4d2d1-38b0-4159-bfa2-7ef3204b9402" name="Default Changelist" comment="" />
+      <created>1555341830401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555341830401</updated>
+      <workItem from="1575484483183" duration="38000" />
+      <workItem from="1575656087269" duration="29000" />
+    </task>
+    <task id="LOCAL-00001" summary="Intial commit">
+      <created>1555342064958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555342064958</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Aufgabe a) und b) bearbeitet">
+      <created>1555405757029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555405757029</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Aufgabe c) bearbeitet">
+      <created>1555408245071</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555408245071</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Aufgabe d) bearbeitet">
+      <created>1555409674704</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555409674704</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Aufgabe e) angefangen, bis jetzt keine Reaktionen auf Button Interaktion">
+      <created>1555426217492</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555426217493</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Aufgabe f) fertig">
+      <created>1555606867682</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555606867682</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Aufgabe g) fertig">
+      <created>1555607293651</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555607293651</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Audioplayer vollständig abgeschlossen">
+      <created>1555609610079</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555609610079</updated>
+    </task>
+    <task id="LOCAL-00009" summary="FormattedPosition in Thread TimerThread">
+      <created>1555609729206</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555609729206</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Refactor">
+      <created>1555661871006</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555661871006</updated>
+    </task>
+    <task id="LOCAL-00011" summary="VA09 Verbesserungen von Gold">
+      <created>1556820065173</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1556820065173</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Nach Druecken von Stop playTime wieder auf 00:00 setzen">
+      <created>1556906247774</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556906247774</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="cert_in_VA10 - 2019.05.03 at 18h 12m 51s.xml">
+      <configuration name="cert in VA10" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="cert_in_VA10 - 2019.05.03 at 19h 56m 49s.xml">
+      <configuration name="cert in VA10" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Intial commit" />
+    <MESSAGE value="Aufgabe a) bearbeitet" />
+    <MESSAGE value="Aufgabe a) und b) bearbeitet" />
+    <MESSAGE value="Aufgabe c) bearbeitet" />
+    <MESSAGE value="Aufgabe d) bearbeitet" />
+    <MESSAGE value="Aufgabe e) angefangen, bis jetzt keine Reaktionen auf Button Interaktion" />
+    <MESSAGE value="Aufgabe f) fertig" />
+    <MESSAGE value="Aufgabe g) fertig" />
+    <MESSAGE value="Audioplayer vollständig abgeschlossen" />
+    <MESSAGE value="FormattedPosition in Thread TimerThread" />
+    <MESSAGE value="Refactor" />
+    <MESSAGE value="VA09 Verbesserungen von Gold" />
+    <MESSAGE value="Nach Druecken von Stop playTime wieder auf 00:00 setzen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nach Druecken von Stop playTime wieder auf 00:00 setzen" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="752" y="400" key="com.intellij.ide.util.TipDialog" timestamp="1575656093477">
+      <screen x="62" y="0" width="1986" height="1152" />
+    </state>
+    <state x="752" y="400" key="com.intellij.ide.util.TipDialog/62.0.1986.1152/-1858.358.1858.1080@62.0.1986.1152" timestamp="1575656093477" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>VA10:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>VA10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="Unnamed" />
+          </order>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
